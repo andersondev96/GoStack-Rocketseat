@@ -23,15 +23,33 @@
         "prettier"
     ],
     "rules": {
-      "prettier/prettier": "error",
-      "import/extensions": [
-        "error",
-        "ignorePackages",
-        {
-          "ts": "never"
-        }
-      ]
-    },
+      "@typescript-eslint/ban-ts-comment": "off",
+    "@typescript-eslint/no-unused-vars": [
+      "error",
+      {
+        "argsIgnorePattern": "_"
+      }
+    ],
+    "camelcase": "off",
+    "class-methods-use-this": "off",
+    "no-console": [
+      "error",
+      {
+        "allow": [
+          "info",
+          "error"
+        ]
+      }
+    ],
+    "prettier/prettier": "error",
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "ts": "never"
+      }
+    ]
+  },
     "settings": {
       "import/resolver": {
         "typescript": {}
