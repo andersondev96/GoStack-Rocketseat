@@ -32,8 +32,8 @@ export default function ensureAuthenticated(
       id: sub,
     };
 
-    return next();
-  } catch {
+    next();
+  } catch (err) {
     throw new AppError('Invalid JWD Token', 401);
   }
 }
