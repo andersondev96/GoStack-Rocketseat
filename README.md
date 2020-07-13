@@ -6,10 +6,10 @@
   <img src="https://img.shields.io/badge/-NodeJS-green" />
   <img src="https://img.shields.io/badge/-ReactJS-blue" />
   <img src="https://img.shields.io/badge/-React Native-9cf" /> <br>
-	<a href="https://www.linkedin.com/in/anderson-fernandes-8b5a50135/">
+	<a href="https://www.linkedin.com/in/anderson-fernandes-8b5a50135/" target="_blank">
     <img alt="Made by" src="https://img.shields.io/badge/made%20by-anderson%20fernandes-%23FF9000">
   </a>
-  <a href="LICENSE.md">
+  <a href="LICENSE.md" target="_blank">
     <img alt="GitHub" src="https://img.shields.io/github/license/EliasGcf/gobarber?color=%23FF9000">
   </a>
 </p>
