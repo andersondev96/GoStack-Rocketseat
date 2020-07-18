@@ -23,6 +23,7 @@
         "prettier"
     ],
     "rules": {
+      "no-console": "off",
       "@typescript-eslint/ban-ts-comment": "off",
     "@typescript-eslint/no-unused-vars": [
       "error",
@@ -30,8 +31,20 @@
         "argsIgnorePattern": "_"
       }
     ],
+    "@typescript-eslint/naming-convention": [
+      "error",
+      {
+        "selector": "interface",
+        "format": ["PascalCase"],
+        "custom": {
+          "regex": "^I[A-Z]",
+          "match": true
+        }
+      }
+    ],
     "camelcase": "off",
     "class-methods-use-this": "off",
+    "no-useless-constructor": "off",
     "no-console": [
       "error",
       {
