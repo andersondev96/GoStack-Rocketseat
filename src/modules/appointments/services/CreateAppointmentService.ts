@@ -16,8 +16,6 @@ interface IRequest {
 
 @injectable()
 class CreateAppointmentService {
-  private appointmentRepository: IAppointmentsRepository;
-
   constructor(
     @inject('AppointmentsRepository')
     private appointmentsRepository: IAppointmentsRepository,
@@ -52,6 +50,7 @@ class CreateAppointmentService {
 
     const findAppointmentInSameDate = await this.appointmentsRepository.findByDate(
       appointmentDate,
+      provider_id,
     );
 
     if (findAppointmentInSameDate) {
