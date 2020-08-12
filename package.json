@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@types/cors": "^2.8.6",
+    "@types/react-day-picker": "^5.3.0",
     "aws-sdk": "^2.724.0",
     "bcryptjs": "^2.4.3",
     "celebrate": "^12.1.2",
@@ -31,6 +32,7 @@
     "orm": "^5.0.5",
     "pg": "^8.2.1",
     "rate-limiter-flexible": "^2.1.10",
+    "react-day-picker": "^7.4.8",
     "redis": "^3.0.2",
     "reflect-metadata": "^0.1.13",
     "table": "^5.4.6",
