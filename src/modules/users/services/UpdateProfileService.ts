@@ -1,6 +1,7 @@
 import { injectable, inject } from 'tsyringe';
 
 import AppError from '@shared/errors/AppError';
+
 import IHashProvider from '../Providers/HashProvider/models/IHashProvider';
 import IUsersRepository from '../repositories/IUserRepository';
 
@@ -28,8 +29,8 @@ class UpdateProfileService {
     user_id,
     name,
     email,
-    old_password,
     password,
+    old_password,
   }: IRequest): Promise<User> {
     const user = await this.usersRepository.findById(user_id);
 
@@ -43,8 +44,7 @@ class UpdateProfileService {
       throw new AppError('E-mail already in use');
     }
 
-    user.name = name;
-    user.email = email;
+    Object.assign(user, { name, email });
 
     if (password && !old_password) {
       throw new AppError(
