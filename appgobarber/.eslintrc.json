@@ -39,6 +39,7 @@
       "@typescript-eslint/ban-types": "off",
       "@typescript-eslint/no-explicit-any": "off",
       "@typescript-eslint/naming-convention": "off",
+      "import/no-duplicates": "off",
       "camelcase": "off",
       "no-shadow": "off",
       "prettier/prettier": "error",
