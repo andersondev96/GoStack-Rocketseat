@@ -41,6 +41,7 @@
       "@typescript-eslint/naming-convention": "off",
       "import/no-duplicates": "off",
       "camelcase": "off",
+      "no-undef": "off",
       "no-shadow": "off",
       "prettier/prettier": "error",
       "import/extensions": [
