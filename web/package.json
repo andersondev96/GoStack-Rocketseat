@@ -60,6 +60,7 @@
     ]
   },
   "devDependencies": {
+    "axios-mock-adapter": "^1.18.2",
     "jest-environment-jsdom-sixteen": "^1.0.3"
   }
 }

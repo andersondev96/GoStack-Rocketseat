@@ -1,6 +1,6 @@
 import React, { createContext, useCallback, useState, useContext } from 'react';
-import api from '../services/api';
 
+import api from '../services/api';
 
 interface User {
     id: string,
@@ -35,7 +35,6 @@ const AuthProvider: React.FC = ({ children }) => {
 
         if (token && user) {
             api.defaults.headers.authorization = `Bearer ${token}`;
-
             return { token, user: JSON.parse(user) };
         }
 
