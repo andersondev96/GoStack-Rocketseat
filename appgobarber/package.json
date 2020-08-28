@@ -29,14 +29,18 @@
     "react-native-reanimated": "^1.9.0",
     "react-native-safe-area-context": "^3.1.1",
     "react-native-screens": "^2.9.0",
+    "react-native-testing-library": "^6.0.0",
     "react-native-vector-icons": "^7.0.0",
     "styled-components": "^5.1.1",
+    "testing-library": "^0.0.2",
     "yup": "^0.29.1"
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",
     "@babel/runtime": "^7.8.4",
     "@react-native-community/eslint-config": "^1.1.0",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react-native": "^7.0.2",
     "@types/jest": "^25.2.3",
     "@types/react-native": "^0.62.0",
     "@types/react-test-renderer": "^16.9.2",
@@ -61,6 +65,9 @@
   },
   "jest": {
     "preset": "react-native",
+    "setupFilesAfterEnv": [
+      "@testing-library/jest-native/extend-expect"
+    ],
     "moduleFileExtensions": [
       "ts",
       "tsx",
