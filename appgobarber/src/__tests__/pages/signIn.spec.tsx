@@ -1,7 +1,13 @@
+import React from 'react';
 import { render } from 'react-native-testing-library';
-import "@testing-library/jest-dom/extend-expect";
 
 import SignIn from '../../pages/SignIn';
+
+jest.mock('@react-navigation/native', () => {
+  return {
+    useNavigation: jest.fn(),
+  }
+});
 
 describe('SignIn page', () => {
   it('should contains email/password inputs', () => {
