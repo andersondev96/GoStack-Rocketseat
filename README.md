@@ -17,9 +17,11 @@
 
 ## Index
 - [Project](#-project)
+- [Layout](#-layout)
 - [Techs](#rocket-techs)
 - [How to download the project](#file_folder-how-to-download-the-project)
 - [How to contribute](#-how-to-contribute)
+- [Author](#-author)
 - [License](#memo-license)
 
 
@@ -27,6 +29,9 @@
 
 **GoBarber** is a project that was created in the 12th Edition of **GoStack** by **Rocketseat**, whose main features are to make appointments for barbershops, which will facilitate the organization
 the hours that hairdressers serve their customers.
+
+## 🎨 Layout
+You can view the project layout in the format through this [link](https://www.figma.com/file/BXCihtXXh9p37lGsENV614/GoBarber). Remembering that you will need to have a [Figma](https://www.figma.com/) account.
 
 ## :rocket: Techs
 The project was developed using the following technologies:
@@ -51,6 +56,16 @@ The project was developed using the following technologies:
   $ cd web
   # Access the frontend directory
   $ yarn start
+  #Access the mobile directory
+  $ cd appgobarber
+  # Install dependences
+  $ yarn
+  # Run the android
+  $ yarn start
+  $ yarn run android
+  # Run the ios
+  $ yarn start
+  $ yarn run ios
 ```
 
 ## 🤔 How to contribute
@@ -62,10 +77,21 @@ The project was developed using the following technologies:
 
 After the merge of your pull request is done, you can delete your branch.
 
+
+---
+## Author
+<a href="https://www.linkedin.com/in/anderson-fernandes-8b5a50135/">
+  <img style="border-radius: 50%;" src="
+  https://media-exp1.licdn.com/dms/image/C4E03AQGDAjeYdexMjQ/profile-displayphoto-shrink_200_200/0?e=1606953600&v=beta&t=I1cOVaUZnRRKHuuftU5S86fQMZvRPphEX-lCCYl-_FI" width="100px" alt="" /> <br />
+  <sub><b>Anderson Fernandes 🚀</b></sub></a>
+
+Made with :purple_heart: by Anderson Fernandes 👋🏽
+Contact!
+
+[![Linkedin Badge](https://img.shields.io/badge/-Anderson-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/anderson-fernandes-8b5a50135/)](https://www.linkedin.com/in/anderson-fernandes-8b5a50135/)
+[![Gmail Badge](https://img.shields.io/badge/-andersonfferreira96@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:andersonfferreira96@gmail.com)](mailto:andersonfferreira96@gmail.com)
+
 ## :memo: License
 
 This project is under the MIT license. See the file [LICENSE](LICENSE.md) for more details.
-
----
-
-Made with :purple_heart: by Anderson Fernandes: wave: <a href="https://www.linkedin.com/in/anderson-fernandes-8b5a50135/">Connect on my linkedin!</a>
+___
