@@ -81,7 +81,7 @@ After the merge of your pull request is done, you can delete your branch.
 ## Author
 <a href="https://www.linkedin.com/in/anderson-fernandes-8b5a50135/">
   <img style="border-radius: 50%;" src="
-  https://media-exp1.licdn.com/dms/image/C4E03AQGDAjeYdexMjQ/profile-displayphoto-shrink_200_200/0?e=1606953600&v=beta&t=I1cOVaUZnRRKHuuftU5S86fQMZvRPphEX-lCCYl-_FI" width="100px" alt="" /> <br />
+  https://avatars1.githubusercontent.com/u/49786548?s=460&u=5a10d9fba489739901357dcb71c07b628d42c5d2&v=4" width="100px" alt="" /> <br />
   <sub><b>Anderson Fernandes 🚀</b></sub></a>
 
 Made with :purple_heart: by Anderson Fernandes 👋🏽
