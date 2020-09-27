@@ -78,7 +78,6 @@ The project was developed using the following technologies:
 After the merge of your pull request is done, you can delete your branch.
 
 
----
 ## Author
 <a href="https://www.linkedin.com/in/anderson-fernandes-8b5a50135/">
   <img style="border-radius: 50%;" src="
