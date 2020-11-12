@@ -21,8 +21,8 @@
 - [Techs](#rocket-techs)
 - [How to download the project](#file_folder-how-to-download-the-project)
 - [How to contribute](#-how-to-contribute)
-- [Author](#-author)
 - [License](#memo-license)
+- [Author](#author)
 
 
 ## 💻 Project
@@ -77,11 +77,15 @@ The project was developed using the following technologies:
 
 After the merge of your pull request is done, you can delete your branch.
 
+## :memo: License
 
-## Author
+This project is under the MIT license. See the file [LICENSE](LICENSE.md) for more details.
+
+---
+
+## 🦸 Author
 <a href="https://www.linkedin.com/in/anderson-fernandes-8b5a50135/">
-  <img style="border-radius: 50%;" src="
-  https://avatars1.githubusercontent.com/u/49786548?s=460&u=5a10d9fba489739901357dcb71c07b628d42c5d2&v=4" width="100px" alt="" /> <br />
+  <img style="border-radius: 50%;" src="https://user-images.githubusercontent.com/49786548/98873391-0df75600-2457-11eb-9b10-210cc591a035.png" width="100px;"> <br />
   <sub><b>Anderson Fernandes 🚀</b></sub></a>
 
 Made with :purple_heart: by Anderson Fernandes 👋🏽
@@ -90,7 +94,8 @@ Contact!
 [![Linkedin Badge](https://img.shields.io/badge/-Anderson-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/anderson-fernandes-8b5a50135/)](https://www.linkedin.com/in/anderson-fernandes-8b5a50135/)
 [![Gmail Badge](https://img.shields.io/badge/-andersonfferreira96@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:andersonfferreira96@gmail.com)](mailto:andersonfferreira96@gmail.com)
 
-## :memo: License
-
-This project is under the MIT license. See the file [LICENSE](LICENSE.md) for more details.
 ___
+
+##  README versions
+
+[Português 🇧🇷](./README.md)  |  [Inglês 🇺🇸](./README-en.md)
