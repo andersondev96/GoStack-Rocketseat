@@ -22,7 +22,7 @@
 - [How to execute the project](#-how-to-execute-the-project)
 - [How to contribute](#-how-to-contribute)
 - [License](#memo-license)
-- [Author](#author)
+- [Author](#-author)
 
 
 ## 💻 Project
