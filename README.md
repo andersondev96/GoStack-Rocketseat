@@ -18,8 +18,8 @@
 ## Index
 - [Project](#-project)
 - [Layout](#-layout)
-- [Techs](#rocket-techs)
-- [How to download the project](#file_folder-how-to-download-the-project)
+- [Technologies](#rocket-technologies)
+- [How to execute the project](#-how-to-execute-the-project)
 - [How to contribute](#-how-to-contribute)
 - [License](#memo-license)
 - [Author](#author)
@@ -33,39 +33,116 @@ the hours that hairdressers serve their customers.
 ## 🎨 Layout
 You can view the project layout in the format through this [link](https://www.figma.com/file/BXCihtXXh9p37lGsENV614/GoBarber). Remembering that you will need to have a [Figma](https://www.figma.com/) account.
 
-## :rocket: Techs
+## :rocket: Technologies
 The project was developed using the following technologies:
 - [TypeScript](https://www.typescriptlang.org)
 - [PostgreSQL](https://www.postgresql.org)
-- [Type ORM](https://typeorm.io)
-- [Node.js](https://nodejs.org/en/)
-- [React](https://reactjs.org)
+- [TypeORM](https://typeorm.io)
+- [Docker](https://www.docker.com)
+- [Redis](https://redis.io)
+- [MongoDB](https://www.mongodb.com)
+- [Jest](https://jestjs.io)
+- [NodeJS](https://nodejs.org/en/)
+- [ReactJS](https://reactjs.org)
 - [React Native](https://facebook.github.io/react-native/)
 
-## :file_folder: How to download the project
+## 🚀 How to execute the project
+
+This project is divided into three parts:
+1. Backend (backend folder)
+2. Frontend (web folder)
+3. Mobile (mobile folder)
+
+Before you begin, you will need to have the following tools installed on your machine:
+[Git](https://git-scm.com), [Docker]('https://www.docker.com'), [DBeaver](https://dbeaver.io), [Node.js](https://nodejs.org/en/).
+
+In addition, it is good to have an editor to work with the code like [VSCode](https://code.visualstudio.com/)
+
+####  Docker installation and configuration
+
+1. Install the [docker](https://www.docker.com/get-started) on your machine.
+2. Create a postgres container in the docker terminal: ``docker run --name postgres -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres``.
+3. Start the created container: ``docker start postgres``.
+
+### 🎲 Running the Back End (server)
+
 ```bash
-  # Clone repository
-  $ git clone https://github.com/AndersonUfop/GoStack-GoBarber/
-  # Enter the repository
-  $ cd GoStack-GoBarber
-  # Install the dependencies
-  $ yarn
-  # Start the backend server
-  $ yarn dev:server
-  # Access the frontend directory
-  $ cd web
-  # Access the frontend directory
-  $ yarn start
-  #Access the mobile directory
-  $ cd appgobarber
-  # Install dependences
-  $ yarn
-  # Run the android
-  $ yarn start
-  $ yarn run android
-  # Run the ios
-  $ yarn start
-  $ yarn run ios
+
+# Clone this repository
+$ git clone https://github.com/AndersonUfop/GoStack-GoBarber.git
+
+# Access the project folder in the / cmd terminal
+$ cd GoStack-GoBarber
+
+# Go to folder server
+$ cd server
+
+# Install dependences
+$ yarn
+
+# Open DBeaver and create a new connection, inserting the data:
+# HOST: localhost / 192.168.99.100
+# DATABASE: Postgres
+# USERNAME: Postgres
+# PASSWORD: docker
+
+# Install all database dependencies
+$ yarn typeorm:migration:run
+
+# Run the application in development mode
+$ yarn dev:server
+
+# The server will start at port: 3333 - go to http://localhost:3333
+
+
+```
+
+#### 🧭 Running the web application (Frontend)
+
+```bash
+
+# Clone this repository
+$ git clone https://github.com/AndersonUfop/GoStack-GoBarber.git
+
+# Access the project folder in the / cmd terminal
+$ cd GoStack-GoBarber
+
+# Go to the Front End application folder
+$ cd web
+
+# Install the dependencies
+$ yarn
+
+# Run the application in development mode
+$ yarn start
+
+# The application will open on the port: 3000 - go to http://localhost:3000
+
+```
+
+#### 📱 Running the application (Mobile)
+
+``` bash
+
+# Clone this repository
+$ git clone https://github.com/AndersonUfop/GoStack-GoBarber.git
+
+# Access the project folder in the / cmd terminal
+$ cd GoStack-GoBarber
+
+# Go to the Front End application folder
+$ cd mobile
+
+# Install the dependencies
+$ yarn
+
+# Run the application in development mode
+$ yarn start
+$ yarn android / yarn ios
+
+# Your device must be configured in developer mode and connected by the USB cable on your machine, 
+# so that it is recognized, once this is done, just wait for the application to start.
+
 ```
 
 ## 🤔 How to contribute
