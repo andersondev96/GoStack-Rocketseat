@@ -16,25 +16,25 @@
 <img alt="Mockup" src="https://res.cloudinary.com/eliasgcf/image/upload/v1587509596/GoBarber/mockup_ocggit.png">
 
 ## Index
-- [Project](#-project)
+- [Projeto](#-projeto)
 - [Layout](#-layout)
-- [Technologies](#rocket-technologies)
-- [How to execute the project](#-how-to-execute-the-project)
-- [How to contribute](#-how-to-contribute)
-- [License](#memo-license)
-- [Author](#-author)
+- [Tecnologias](#rocket-tecnologias)
+- [Como executar o projeto](#-como-executar-o-projeto)
+- [Como contribuir](#-como-contribuir)
+- [Licença](#memo-licença)
+- [Autor](#-autor)
 
 
-## 💻 Project
+## 💻 Projeto
 
-**GoBarber** is a project that was created in the 12th Edition of **GoStack** by **Rocketseat**, whose main features are to make appointments for barbershops, which will facilitate the organization
-the hours that hairdressers serve their customers.
+**GoBarber** é um que projeto foi criado na 12ª edição do **GoStack** da **Rocketseat**, cujas principais características são fazer agendamentos para barbearias, que 
+facilita a organização dos cabelereiros, para atenderem os seus clientes.
 
 ## 🎨 Layout
-You can view the project layout in the format through this [link](https://www.figma.com/file/BXCihtXXh9p37lGsENV614/GoBarber). Remembering that you will need to have a [Figma](https://www.figma.com/) account.
+Você pode visualizar o layout do projeto no formato através deste [link](https://www.figma.com/file/BXCihtXXh9p37lGsENV614/GoBarber). Lembrando que você precisará ter uma conta [Figma](https://www.figma.com/).
 
-## :rocket: Technologies
-The project was developed using the following technologies:
+## :rocket: Tecnologias
+O projeto foi desenvolvido utilizando as seguintes tecnologias:
 - [TypeScript](https://www.typescriptlang.org)
 - [PostgreSQL](https://www.postgresql.org)
 - [TypeORM](https://typeorm.io)
@@ -46,133 +46,132 @@ The project was developed using the following technologies:
 - [ReactJS](https://reactjs.org)
 - [React Native](https://facebook.github.io/react-native/)
 
-## 🚀 How to execute the project
+## 🚀 Como executar o projeto
 
-This project is divided into three parts:
-1. Backend (backend folder)
-2. Frontend (web folder)
-3. Mobile (mobile folder)
+Este projeto está dividido em três partes:
+1. Backend (pasta backend)
+2. Frontend (pasta web)
+3. Celular (pasta mobile)
 
-Before you begin, you will need to have the following tools installed on your machine:
-[Git](https://git-scm.com), [Docker]('https://www.docker.com'), [DBeaver](https://dbeaver.io), [Node.js](https://nodejs.org/en/).
+Antes de começar, você precisará ter as seguintes ferramentas instaladas em sua máquina:
+[Git](https://git-scm.com), [Docker](https://www.docker.com), [DBeaver](https://dbeaver.io), [Node.js](https://nodejs.org/en/).
 
-In addition, it is good to have an editor to work with the code like [VSCode](https://code.visualstudio.com/)
+Além disso, é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-####  Docker installation and configuration
+#### Instalação e configuração do Docker
 
-1. Install the [docker](https://www.docker.com/get-started) on your machine.
-2. Create a postgres container in the docker terminal: ``docker run --name postgres -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres``.
-3. Start the created container: ``docker start postgres``.
+1. Instale o [docker](https://www.docker.com/get-started) em sua máquina.
+2. Crie um contêiner postgres no terminal docker: ``docker run --name postgres -e POSTGRES_PASSWORD = docker -p 5432: 5432 -d postgres``.
+3. Inicie o container criado: ``docker start postgres``.
 
-### 🎲 Running the Back End (server)
+### 🎲 Executando o Back End (servidor)
 
 ```bash
 
-# Clone this repository
+# Clone este repositório
 $ git clone https://github.com/AndersonUfop/GoStack-GoBarber.git
 
-# Access the project folder in the / cmd terminal
+# Acesse a pasta do projeto no terminal / cmd
 $ cd GoStack-GoBarber
 
-# Go to folder server
+# Vá para a pasta do servidor
 $ cd server
 
-# Install dependences
+# Instalar dependências
 $ yarn
 
-# Open DBeaver and create a new connection, inserting the data:
+# Abra o DBeaver e crie uma nova conexão, inserindo os dados:
 # HOST: localhost / 192.168.99.100
 # DATABASE: Postgres
 # USERNAME: Postgres
 # PASSWORD: docker
 
-# Install all database dependencies
-$ yarn typeorm:migration:run
+# Instale todas as dependências do banco de dados
+$ yarn typeorm:migration: run
 
-# Run the application in development mode
+# Execute o aplicativo em modo de desenvolvimento
 $ yarn dev:server
 
-# The server will start at port: 3333 - go to http://localhost:3333
-
+# O servidor irá iniciar na porta: 3333 - vá para http://localhost:3333
 
 ```
 
-#### 🧭 Running the web application (Frontend)
+#### 🧭 Executando o aplicativo da web (Frontend)
 
 ```bash
 
-# Clone this repository
+# Clone este repositório
 $ git clone https://github.com/AndersonUfop/GoStack-GoBarber.git
 
-# Access the project folder in the / cmd terminal
+# Acesse a pasta do projeto no terminal / cmd
 $ cd GoStack-GoBarber
 
-# Go to the Front End application folder
+# Vá para a pasta do aplicativo Front End
 $ cd web
 
-# Install the dependencies
+# Instale as dependências
 $ yarn
 
-# Run the application in development mode
+# Execute o aplicativo em modo de desenvolvimento
 $ yarn start
 
-# The application will open on the port: 3000 - go to http://localhost:3000
+# O aplicativo será aberto na porta: 3000 - vá para http://localhost:3000
 
 ```
 
-#### 📱 Running the application (Mobile)
+#### 📱 Executando o aplicativo (Mobile)
 
-``` bash
+```bash
 
-# Clone this repository
+# Clone este repositório
 $ git clone https://github.com/AndersonUfop/GoStack-GoBarber.git
 
-# Access the project folder in the / cmd terminal
+# Acesse a pasta do projeto no terminal / cmd
 $ cd GoStack-GoBarber
 
-# Go to the Front End application folder
+# Vá para a pasta do aplicativo Front End
 $ cd mobile
 
-# Install the dependencies
+# Instale as dependências
 $ yarn
 
-# Run the application in development mode
+# Execute o aplicativo em modo de desenvolvimento
 $ yarn start
 $ yarn android / yarn ios
 
-# Your device must be configured in developer mode and connected by the USB cable on your machine, 
-# so that it is recognized, once this is done, just wait for the application to start.
+# Seu dispositivo deve ser configurado no modo de desenvolvedor e conectado pelo cabo USB em sua máquina,
+# para que seja reconhecido, uma vez feito isso, basta aguardar o início do aplicativo.
 
 ```
 
-## 🤔 How to contribute
+## 🤔 Como contribuir
 
-- Fork the repository;
-- Create a branch with your feature: `git checkout -b my-feature`;
-- Commit your changes: `git commit -m 'feat: My new feature'`;
-- Push to your branch: `git push origin my-feature`.
+- Fork o repositório;
+- Crie um branch com seu recurso: `git checkout -b my-feature`;
+- Faça commit de suas mudanças: `git commit -m 'feat: My new feature'`;
+- Envie para o seu branch: `git push origin my-feature`.
 
-After the merge of your pull request is done, you can delete your branch.
+Após a mesclagem de sua solicitação pull, você pode excluir seu branch.
 
-## :memo: License
+## :memo: Licença
 
-This project is under the MIT license. See the file [LICENSE](LICENSE.md) for more details.
+Este projeto está sob a licença do MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
 ---
 
-## 🦸 Author
+## 🦸 Autor
 <a href="https://www.linkedin.com/in/anderson-fernandes-8b5a50135/">
   <img style="border-radius: 50%;" src="https://user-images.githubusercontent.com/49786548/98873391-0df75600-2457-11eb-9b10-210cc591a035.png" width="100px;"> <br />
   <sub><b>Anderson Fernandes 🚀</b></sub></a>
 
-Made with :purple_heart: by Anderson Fernandes 👋🏽
-Contact!
+Feito com :purple_heart: por Anderson Fernandes 👋🏽
+Entre em contato!
 
 [![Linkedin Badge](https://img.shields.io/badge/-Anderson-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/anderson-fernandes-8b5a50135/)](https://www.linkedin.com/in/anderson-fernandes-8b5a50135/)
 [![Gmail Badge](https://img.shields.io/badge/-andersonfferreira96@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:andersonfferreira96@gmail.com)](mailto:andersonfferreira96@gmail.com)
 
 ___
 
-##  README versions
+##  Versões do README
 
 [Português 🇧🇷](./README.md)  |  [Inglês 🇺🇸](./README-en.md)
