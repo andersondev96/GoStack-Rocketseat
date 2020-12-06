@@ -1,5 +1,11 @@
-FROM node:boron
-WORKDIR /postgres
+FROM node:10-alpine
+
+WORKDIR /usr/app
+COPY package.json yarn.lock ./
+
+RUN yarn
+
 COPY . .
 
-CMD NODE_URLS=http://*:${process.env.APP_API_URL} yarn dev:server
+EXPOSE 3333
+CMD ["yarn", "dev:server"]
