@@ -34,7 +34,7 @@
     "rate-limiter-flexible": "^2.1.10",
     "react": "^16.13.1",
     "react-day-picker": "^7.4.8",
-    "redis": "^3.0.2",
+    "redis": "^3.1.1",
     "reflect-metadata": "^0.1.13",
     "table": "^5.4.6",
     "tsyringe": "^4.3.0",
