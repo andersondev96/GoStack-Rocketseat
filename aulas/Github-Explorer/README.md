@@ -69,10 +69,3 @@ Depois que o merge da sua pull request for feito, você pode deletar a sua branc
 Esse projeto está sob a licença [MIT](./LICENSE).
 
 Feito com ❤️ por Anderson Fernandes 👋🏽 [Entre em contato!](https://www.linkedin.com/in/anderson-fernandes-8b5a50135/)
-
----
-<br>
-
-<h2> Versões do README </h2>
-
-[Português 🇧🇷](./README.md)  |  [Inglês 🇺🇸](./README-en.md)
