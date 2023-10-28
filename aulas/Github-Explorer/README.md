@@ -11,12 +11,6 @@
 </p>
 
 
-<p align="center">
-  <img src="https://media-exp1.licdn.com/dms/image/C4D22AQGtWWvqdaDZAA/feedshare-shrink_2048_1536/0?e=1608163200&v=beta&t=PC5_ELVeMXU8zCUU4pZwm9OY6cnUfrDEXEMpeeUwVSs" height="200px">
-  <img src="https://media-exp1.licdn.com/dms/image/C4D22AQE8qSTUdGR_HQ/feedshare-shrink_2048_1536/0?e=1608163200&v=beta&t=4lUWXZz5POXW_DQCI_gG-s7sdaK5vivqu89LJNGZrSE" height="200px">
-</p>
-<br>
-
 ## 💻 A aplicação
 <p>A aplicação desenvolvida é muito simples e objetiva, permitindo que o usuário pesquise por um repositório do github e tenha acesso as principais informações, como
   a quantidade de estrelas, forks e issues.
