@@ -115,7 +115,7 @@ Após a mesclagem de sua solicitação pull, você pode excluir seu branch.
 Este projeto está licenciado sob a Licença MIT - consulte o arquivo [LICENÇA](LICENSE) para obter detalhes.
 
 
-Feito com 💜 por Anderson Fernandes 👋 [See my linkedin](https://www.linkedin.com/in/anderson-fernandes-8b5a50135/)
+Feito com 💜 por Anderson Fernandes 👋 [Acesse o meu linkedin](https://www.linkedin.com/in/anderson-fernandes-8b5a50135/)
 
 ---
 
